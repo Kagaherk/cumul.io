@@ -41,7 +41,7 @@ client.create(
 
 ## Documentation
 
-The module exposes the following methods (TODO: expand)):
+The module exposes the following methods:
 
  - new Client(options)
 
@@ -63,4 +63,4 @@ The module exposes the following methods (TODO: expand)):
 
  - client.validate(type, properties)
 
-The API documentation itself (available services and methods) can be found [here](https://cumul.io/documentation/api).
+The API documentation itself (available services and methods) can be found [here](http://docs.cumul.io).
