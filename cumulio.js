@@ -62,7 +62,10 @@ Cumulio.prototype.create = function(resource, properties, associations) {
       var promises = associations.map(function(association) {
         return t.associate(resource, instance.id, association);
       });
-      return Promise.all(promises);
+      return Promise.all(promises)
+        .then(function() {
+          return instance;
+        });
     });
 };
 
