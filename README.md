@@ -41,26 +41,4 @@ client.create(
 
 ## Documentation
 
-The module exposes the following methods:
-
- - new Client(options)
-
- - client.create(type, properties, [associations])
-
- - client.update(type, id, properties)
-
- - client.delete(type, id)
-
- - client.get(type, query)
-   - Used to retrieve datasets, dashboards, ...
-
- - client.query(query)
-   - Used to retrieve sliced & diced aggregated data
-
- - client.associate(type, id, association, properties)
-
- - client.dissociate(type, id, association)
-
- - client.validate(type, properties)
-
-The API documentation itself (available services and methods) can be found [here](http://docs.cumul.io).
+The API documentation (available services and methods) can be found [here](http://docs.cumul.io).
