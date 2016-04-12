@@ -3,7 +3,7 @@
   "description": "Connect to the Cumul.io API",
   "author": "Cumul.io Team <support@cumul.io>",
   "homepage": "https://cumul.io",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "cumulio",
   "dependencies": {
     "bluebird": "3.0.5",

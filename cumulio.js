@@ -1,5 +1,5 @@
 /**
- * Cumul.io API SDK  --  version 0.1.0 / 2015-11-18
+ * Cumul.io API SDK  --  version 0.0.3 / 2016-04-12
  * API : WebSocket, language : Node.js
  *
  * Need some help? Contact us at support@cumul.io
@@ -235,7 +235,7 @@ Cumulio.prototype.close = function() {
  */
 Cumulio.prototype._connect = function() {
   var t = this;
-  t.socket = socket.connect(t.host + ':' + t.port);
+  t.socket = socket.connect(t.host + ':' + t.port, {'force new connection': true});
   t.socket.on('connect', function() {
     t.connected = true;
     // Notify anyone listening for a connection to be made.
