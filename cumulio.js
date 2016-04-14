@@ -85,7 +85,7 @@ Cumulio.prototype.get = function(resource, filter) {
     action: 'get',
     find: filter
   };
-  return t.emit(resource, query);
+  return t._emit(resource, query);
 };
 
 /**
